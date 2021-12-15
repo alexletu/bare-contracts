@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
-import { IERC20 } from "../Interfaces/IERC20.sol";
+import { IERC20 } from "./Interfaces/IERC20.sol";
 
 /**
  * @param recipient the person (address of some account, to which money is owed

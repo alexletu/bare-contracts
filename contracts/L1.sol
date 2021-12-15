@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
-import { IRootChainManager } from "../Interfaces/IRootChainManager.sol";
+import { IRootChainManager } from "./Interfaces/IRootChainManager.sol";
 
 contract L1 is Ownable {
   address internal _receiver;
